@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HealthCheckController {
 
-    @Value("${name}")
+    @Value("${something}")
     private String something;
 
     @RequestMapping("/health")
